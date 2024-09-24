@@ -17,3 +17,6 @@ collections:
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
+
+media_folder: public/img
+public_folder: /img
