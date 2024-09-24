@@ -8,6 +8,5 @@ import sitemap from '@astrojs/sitemap';
 export default defineConfig({
 	site: 'https://fujibayashi-ast.github.io/sample-sg/',
 	integrations: [mdx(), sitemap()],
-	base: '/sample-sg',
-	output: 'static'
+	base: '/sample-sg'
 });
