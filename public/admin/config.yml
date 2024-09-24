@@ -5,12 +5,13 @@ backend:
 collections:
   - name: blog
     label: Blog
-    folder: src/pages/blog
+    folder: src/content/blog
     create: true
     slug: "{{slug}}"
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
+      - {label: "Draft", name: "draft", widget: "boolean", default: true}
 
 media_folder: public/img
 public_folder: /img
