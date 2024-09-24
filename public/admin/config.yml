@@ -4,7 +4,7 @@ backend:
   branch: main
   site_domain: fujibayashi-ast.github.io
   base_url: https://fujibayashi-ast.github.io/sample-sg/
-  auth_endpoint: api/auth
+  auth_endpoint: admin/api/auth
   auth_scope: repo
   app_id: Ov23liWxApOFcYtrMmkj
 
