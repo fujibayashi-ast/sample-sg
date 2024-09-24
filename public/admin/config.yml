@@ -1,6 +1,6 @@
 backend:
-  name: github
-  repo: sample-sg
+  name: git-gateway
+  branch: main
 
 collections:
   - name: blog
