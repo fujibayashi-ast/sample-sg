@@ -1,8 +1,6 @@
 backend:
   name: github
   repo: sample-sg
-  auth_scope: repo
-  app_id: Ov23liWxApOFcYtrMmkj
 
 collections:
   - name: blog
