@@ -6,7 +6,6 @@ import sitemap from '@astrojs/sitemap';
 
 // https://astro.build/config
 export default defineConfig({
-	site: 'https://fujibayashi-ast.github.io/sample-sg/',
+	site: 'https://main--sample-sg.netlify.app/',
 	integrations: [mdx(), sitemap()],
-	base: '/sample-sg'
 });
