@@ -7,7 +7,7 @@ export async function getStaticPaths() {
 	return posts.map((post) => ({
 		params: { slug: post.slug },
 		props: post,
-	}));
+	})).filter((post) => !post.props.data.draft);
 }
 type Props = CollectionEntry<'blog'>;
 
